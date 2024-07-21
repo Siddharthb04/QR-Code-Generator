@@ -23,7 +23,8 @@ const Card = () => {
       link.href=URL.createObjectURL(blob)
       link.download="qr.png"
       document.body.appendChild(link);
-      link.click()
+      link.click();
+      document.body.removeChild(link);
     })
   }
   return (
