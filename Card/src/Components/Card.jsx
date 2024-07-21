@@ -52,7 +52,7 @@ const Card = () => {
     <button onClick={generate} className='generate' disabled={loading}>Generate QR Code</button>
     <button className='Download' onClick={download}>Download QR Code</button>
     
-   <a className="footer">Designed by Sanjay</a>
+   <a className="footer">Designed with ❤ by <span> Sanjay </span></a>
    </div>
    
    </div>
