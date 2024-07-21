@@ -46,7 +46,7 @@ const Card = () => {
     <label htmlFor='size' className='label'>
       Enter Image Size
     </label>
-    <input type='text'  id="size" placeholder='(ex:150)' onChange={(e)=>{
+    <input type='text'  id="size" placeholder='(recommended 80)' onChange={(e)=>{
       setWidth(e.target.value)
     }}/>
     </div>
