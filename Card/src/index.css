@@ -84,3 +84,7 @@ button[disabled]{
 a{
   color: #404040;
 }
+.footer{
+align-self:center;
+margin-top:10px;
+}
