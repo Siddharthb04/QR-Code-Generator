@@ -6,15 +6,15 @@ const Card = () => {
   const [width,setWidth]=useState(150)
   const [loading,setLoading]=useState(false)
   async function generate(){
+    setLoading(true);
     try {
-      setLoading(true)
       const url=`https://api.qrserver.com/v1/create-qr-code/?size=${width}x${width}&data=${encodeURIComponent(qr)}`
       setImg(url)
     } catch (error) {
       
     }
     finally{
-      setLoading(false)
+      setLoading(false);
     }
   }
   function download(){
